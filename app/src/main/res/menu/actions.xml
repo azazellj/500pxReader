@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/download"
+        android:icon="@android:drawable/stat_sys_download_done"
+        android:title="Add"
+        app:showAsAction="ifRoom" />
+    />
+    <item
+        android:id="@+id/reset"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Reset"
+        app:showAsAction="ifRoom|withText" />
+    />
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="About"
+        app:showAsAction="never">
+        >
+    </item>
+</menu>
